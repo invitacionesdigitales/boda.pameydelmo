@@ -178,8 +178,16 @@ margin-left: 15%;
 
 
 }
-
-
+.regalo{
+ width: 16%;
+ margin-left: 15%;
+ margin-top: 6%;
+}
+.percha{
+ width: 20%;
+ margin-left: 14%;
+ margin-top: 6%;
+}
 .parrafo2 {
 
     text-align: center;
@@ -191,6 +199,13 @@ margin-left: 15%;
 
 .parrafo1{
 text-align: center;
+color: #575757;
+font-size: 25px;
+font-family: 'Dancing Script', cursive; 
+}
+
+.regalo-vesti{
+  text-align: center;
 color: #575757;
 font-size: 25px;
 font-family: 'Dancing Script', cursive; 
@@ -212,7 +227,7 @@ font-family: 'Dancing Script', cursive;
   color: #ffffff;
   font-size: 23px;
   font-family: 'Dancing Script', cursive;
-  background-color: #765742fc;
+  background-color: #af9664;
 margin-top: 10%;
 
 }
@@ -246,7 +261,7 @@ margin-top: 10%;
   color: #ffffff;
 }
 .caja_asistencia{
-  margin-top: -12%;
+  margin-top: -10%;
 }
 .a{
   text-decoration: none;
@@ -293,29 +308,37 @@ margin-top: 10%;
  }
  .floraldos{
   width: 40%;
-  margin-top: -20%;
-  margin-left: 17%;
+  margin-top: 5%;
+  margin-left: 15%;
+ }
+  .flortres{
+  width: 52%;
+  margin-top: 5%;
+  margin-left: 15%;
  }
  .calendario{
   width: 70%;
   margin-left: 17%;
   margin-top: 10%;
  }
- .marian{
-width: 18%;
-margin-left: -60%;
+ .pame{
+width: 28%;
+margin-left: -59%;
 
  }
- .fabi{
-  width: 18%;
-  margin-left: -60%;
+ .delmo{
+  width: 28%;
+  margin-left: -59%;
    }
   .novios{
     width: 38%;
     margin-top: 8%;
     margin-left: 12%;
   }
-  
+  .infodos{
+    margin-top: -18%;
+
+  }
 .tecla {
   margin-top: -50%;
    margin-left: 50%;
