@@ -183,6 +183,11 @@ margin-left: 15%;
  margin-left: 15%;
  margin-top: 6%;
 }
+.melodia{
+ width: 16%;
+ margin-left: 15%;
+ margin-top: 6%;
+}
 .percha{
  width: 20%;
  margin-left: 14%;
@@ -241,6 +246,13 @@ margin-top: 10%;
   
 
 }
+.canciones{
+margin-top: 20%;
+  text-align: center;
+  font-family: 'Dancing Script', cursive; 
+  font-size: 33px;
+  color: #b78a07;
+}
 .whatsap{
   width: 27%;
   margin-left: 37%;
@@ -295,6 +307,26 @@ margin-top: 10%;
   background-image: url(./imagenes/gif.gif);
   background-size: 120%;
   margin-top: 2%;
+}
+.click3 {
+  padding: 1px 9px;
+  font-size: 18px;
+  font-weight: 1200;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color:#b78a07;
+  border-radius: 7px;
+  box-shadow: 1px 1px 30px -5px rgb(232, 248, 207);
+  cursor: pointer;
+   font-family: 'Julius Sans One', sans-serif;
+  background-image: url(./imagenes/gif.gif);
+  background-size: 120%;
+  margin-top: 2%;
+  text-decoration: none;
+  
+}
+.centrado3{
+justify-content: center;
 }
 .iglesia{
   width: 16%;
