@@ -81,8 +81,8 @@ botonn.addEventListener("click", function(){
        title: '<strong>VER LA UBICACION<u></u></strong>',
        icon: 'success',
        html:
-         'INGRESÁ' +
-         '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3361.958605534315!2d-60.850652000000004!3d-32.580628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6695b75efe481%3A0xf638dc644ba109c7!2sQuinta%20Don%20Pedro!5e0!3m2!1ses-419!2sar!4v1736514707757!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>' +
+         '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3357.748980243459!2d-63.43772739999999!3d-32.692719999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc30d635ce66cd%3A0x326d3ef4724249f!2sIglesia%20Nuestra%20Se%C3%B1ora%20De%20La%20Asunci%C3%B3n!5e0!3m2!1ses!2sar!4v1751300469521!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>INGRESÁ' +
+         '' +
          'Podes ampliar el mapa',
          
          
@@ -96,9 +96,10 @@ function exito(){
       icon: 'success',
       html:
         'INGRESÁ' +
-        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3362.2119204927526!2d-60.8558722!3d-32.5738719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b66957301c9879%3A0x362156219e51312!2sParroquia%20Santa%20Rosa%20de%20Lima!5e0!3m2!1ses-419!2sar!4v1737556338843!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>' +
+        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3357.7267661575893!2d-63.4361152!3d-32.6933106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc30d7a7efcf1d%3A0xe2d48e9b87fe581a!2sSal%C3%B3n%20Municipal!5e0!3m2!1ses!2sar!4v1751300522470!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>' +
         'Podes ampliar el mapa',
         
         
     })
 }
+

@@ -110,8 +110,7 @@
   <p class="parrafo1"> Horario: --- <br> Iglesia Nuestra Señora de la Asunción.
     <br> Dirección: --- </p> 
 
-
-  <button type="submit" onclick="return exito()" class="click2" >COMO LLEGAR</button >
+ <button class="click2" id="btn"><b>COMO LLEGAR</b></button>
 
 
     
@@ -123,7 +122,9 @@
     
       <p class="parrafo1"> Horario: ... <br> Municipalidad de Ticino. <br> 
        Dirección: ---  </p> 
-      <button class="click1" id="btn">COMO LLEGAR</button>
+ 
+  
+    <button class="click2" onclick="abrirMapa()">COMO LLEGAR</button>
 <br>
 
 
@@ -135,7 +136,8 @@
     
       <p class="parrafo1"> Horario: ... <br> Salón Municipal de Ticino. <br> 
        Dirección: ---  </p> 
-      <button class="click1" id="btn">COMO LLEGAR</button>
+
+  <button type="submit" onclick="return exito()" class="click2" >COMO LLEGAR</button >
 
 <img class="floral" src="./imagenes/flor.png" alt="">
      
@@ -170,7 +172,7 @@
          por eso te pedimos que toques <br> el icono de Whatsapp para confirmar <br> 
          por si o por no tu asistencia.<br>
          </p> 
-        <a class="a" href="https://wa.me/+549" target="_blank">
+        <a class="a" href="https://wa.me/+5493534292385" target="_blank">
           <img class="whatsap" src="./imagenes/whatsapp.png" alt="">
       </a>
       <img class="pame" src="./imagenes/pame.png" alt="" srcset="">
@@ -178,7 +180,7 @@
 
 
       <p class="parrafo6"><b>Confirmar hasta el <br> viernes 24 de octubre.</b></p> 
-      <a class="a" href="https://wa.me/+549" target="_blank">
+      <a class="a" href="https://wa.me/+5493534292387" target="_blank">
         <img class="whatsapdos" src="./imagenes/whatsapp.png" alt="">
     </a>
 
@@ -214,7 +216,7 @@
   <img class="melodia" src="./imagenes/musica.png" alt="">
   <hr class="linea">
   <div class="centrado3">
-    <a class="click3" href="https://forms.gle/VH7siAb1vNxif9Jv9">Recomendar canción</a>
+    <a class="click3" href="https://forms.gle/VH7siAb1vNxif9Jv9"><b>Recomendar canción</b></a>
    </div>
 </section>
 
@@ -237,8 +239,13 @@
       
 
 
-
-
+  <script>
+        function abrirMapa() {
+            // Coordenadas o dirección
+            const url = "https://maps.app.goo.gl/HADBPzsobhFTo1vW8"; // Buenos Aires
+            window.open(url, "_blank");
+        }
+    </script>
 
 
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
